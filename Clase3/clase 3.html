@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Formularios</title>
+		
+		<script type="text/javascript" src="ejercicio3.js"></script>
+	</head>
+	
+	<body>
+		<form>
+			<p>
+				<label for="nombre">Nombre: </label>
+				<input type="text" id="nombre">
+			</p>
+			<p>
+				<label for="Tipo1">Tipo 1</label>
+				<input type="checkbox" id="Tipo1"><br>
+				<label for="Tipo2">Tipo 2</label>
+				<input type="checkbox" id="Tipo2">
+			</p>
+			<p>
+				<label for="masculino">Masculino</label>
+				<input type="radio" name="sexo" id="masculino">
+				<label for="femenino">Femenino</label>
+				<input type="radio" name="sexo" id="femenino">
+			</p>
+			<p>
+				<select style="font-size:20px">
+					<option>Valor1</option>
+					<option>Valor2</option>
+					<option>Valor3</option>
+				</select>
+			</p>
+			<input type="button" value="Botón" onclick="alert('Hola'); return false;">
+		</form>
+	</body>
+</html>
